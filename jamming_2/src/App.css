@@ -1,0 +1,59 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  display: flex;
+  background-color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.App {
+  background-color: forestgreen;
+  height: 100vh;
+}
+
+.App-playlist {
+  display:flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color:mintcream;
+}
+
+.header h1 {
+  margin-left: 45%; /* Center align the text */
+}
+
+.header a, button {
+  margin-left: auto; 
+}
+
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.searchbar form {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this line to vertically center the form */
+}
